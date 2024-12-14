@@ -1,0 +1,6 @@
+open below link grab screenshot of each question, paste it in chat gpt to solve
+https://www.educative.io/courses/grokking-coding-interview-in-javascript/lowest-common-ancestor-of-a-binary-tree-iii
+
+use below command along with screenshot of each question
+
+Exract question, include question in solution, solve it in js using two pointer approach along with comments

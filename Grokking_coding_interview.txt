@@ -1,0 +1,685 @@
+Two Pointers
+
+Get started with Two Pointers for efficient array and string manipulation techniques.
+Introduction to Two Pointers
+Valid Palindrome
+Solution: Valid Palindrome
+3Sum
+Solution: 3Sum
+Remove Nth Node from End of List
+Solution: Remove Nth Node from End of List
+Sort Colors
+Solution: Sort Colors
+Reverse Words in a String
+Solution: Reverse Words in a String
+Valid Word Abbreviation
+Solution: Valid Word Abbreviation
+Strobogrammatic Number
+Solution: Strobogrammatic Number
+Minimum Number of Moves to Make Palindrome
+Solution: Minimum Number of Moves to Make Palindrome
+Next Palindrome Using Same Digits
+Solution: Next Palindrome Using Same Digits
+Lowest Common Ancestor of a Binary Tree III
+Solution: Lowest Common Ancestor of a Binary Tree III
+Valid Palindrome II
+3.
+
+Fast and Slow Pointers
+
+Examine the fast and slow pointers technique for cycle detection, middle node identification, and efficient data traversal.
+Introduction to Fast and Slow Pointers
+Happy Number
+Solution: Happy Number
+Linked List Cycle
+Solution: Linked List Cycle
+Middle of the Linked List
+Solution: Middle of the Linked List
+Circular Array Loop
+Solution: Circular Array Loop
+Find the Duplicate Number
+Solution: Find the Duplicate Number
+Palindrome Linked List
+Solution: Palindrome Linked List
+Maximum Twin Sum of a Linked List
+Solution: Maximum Twin Sum of a Linked List
+Split a Circular Linked List
+Solution: Split a Circular Linked List
+4.
+
+Sliding Window
+
+Grasp the fundamentals of the sliding window technique for efficient array and string manipulation.
+Introduction to Sliding Window
+Repeated DNA Sequences
+Solution: Repeated DNA Sequences
+Sliding Window Maximum
+Solution: Sliding Window Maximum
+Minimum Window Subsequence
+Solution: Minimum Window Subsequence
+Longest Repeating Character Replacement
+Solution: Longest Repeating Character Replacement
+Minimum Window Substring
+Solution: Minimum Window Substring
+Longest Substring without Repeating Characters
+Solution: Longest Substring without Repeating Characters
+Minimum Size Subarray Sum
+Solution: Minimum Size Subarray Sum
+Maximum Average Subarray I
+Solution: Maximum Average Subarray I
+Diet Plan Performance
+Solution: Diet Plan Performance
+Best Time to Buy and Sell Stock
+5.
+
+Merge Intervals
+
+Take a closer look at merging, inserting, and intersecting intervals for optimal scheduling.
+Introduction to Merge Intervals
+Merge Intervals
+Solution: Merge Intervals
+Insert Interval
+Solution: Insert Interval
+Interval List Intersections
+Solution: Interval List Intersections
+Employee Free Time
+Solution: Employee Free Time
+Task Scheduler
+Solution: Task Scheduler
+Meeting Rooms II
+6.
+
+In-Place Manipulation of a Linked List
+
+Tackle in-place linked list manipulation for scenarios like reversing, swapping nodes, and removing duplicates using space-efficient techniques.
+Introduction to In-Place Manipulation of a Linked List
+Reverse Linked List
+Solution: Reverse Linked List
+Reverse Nodes in k-Group
+Solution: Reverse Nodes in k-Group
+Reverse Linked List II
+Solution: Reverse Linked List II
+Reorder List
+Solution: Reorder List
+Swapping Nodes in a Linked List
+Solution: Swapping Nodes in a Linked List
+Reverse Nodes in Even Length Groups
+Solution: Reverse Nodes in Even Length Groups
+Remove Duplicates from Sorted List
+Solution: Remove Duplicates from Sorted List
+Remove Linked List Elements
+Solution: Remove Linked List Elements
+Split Linked List in Parts
+Solution: Split Linked List in Parts
+Swap Nodes in Pairs
+7.
+
+Two Heaps
+
+Build on using two heaps to optimize dynamic data processing, median calculations, and task scheduling.
+Introduction to Two Heaps
+IPO
+Solution: IPO
+Find Median from Data Stream
+Solution: Find Median from Data Stream
+Sliding Window Median
+Solution: Sliding Window Median
+Schedule Tasks on Minimum Machines
+Solution: Schedule Tasks on Minimum Machines
+Meeting Rooms III
+Solution: Meeting Rooms III
+Largest Number After Digit Swaps by Parity
+Solution: Largest Number After Digit Swaps by Parity
+Find Right Interval
+Solution: Find Right Interval
+8.
+
+K-way merge
+
+Learn how to use the K-way merge for efficient sorting and finding specific elements.
+Introduction to K-way Merge
+Merge Sorted Array
+Solution: Merge Sorted Array
+Kth Smallest Number in M Sorted Lists
+Solution: Kth Smallest Number in M Sorted Lists
+Find K Pairs with Smallest Sums
+Solution: Find K Pairs with Smallest Sums
+Merge K Sorted Lists
+Solution: Merge K Sorted Lists
+Kth Smallest Element in a Sorted Matrix
+Solution: Kth Smallest Element in a Sorted Matrix
+9.
+
+Top K Elements
+
+Get started with techniques to efficiently identify the top K elements in unsorted collections.
+Introduction to Top K Elements
+Kth Largest Element in a Stream
+Solution: Kth Largest Element in a Stream
+Reorganize String
+Solution: Reorganize String
+K Closest Points to Origin
+Solution: K Closest Points to Origin
+Top K Frequent Elements
+Solution: Top K Frequent Elements
+Kth Largest Element in an Array
+Solution: Kth Largest Element in an Array
+Third Maximum Number
+Solution: Third Maximum Number
+Find Subsequence of Length K with the Largest Sum
+Solution: Find Subsequence of Length K with the Largest Sum
+Minimum Cost to Hire K Workers
+Solution: Minimum Cost to Hire K Workers
+10.
+
+Modified Binary Search
+
+Work your way through modified binary search techniques, including real-world applications and various problem-solving strategies.
+Introduction to Modified Binary Search
+Binary Search
+Solution: Binary Search
+Search in Rotated Sorted Array
+Solution: Search in Rotated Sorted Array
+First Bad Version
+Solution: First Bad Version
+Random Pick with Weight
+Solution: Random Pick with Weight
+Find K Closest Elements
+Solution: Find K Closest Elements
+Single Element in a Sorted Array
+Solution: Single Element in a Sorted Array
+Maximum Value at a Given Index in a Bounded Array
+Solution: Maximum Value at a Given Index in a Bounded Array
+The K Weakest Rows in a Matrix
+Solution: The K Weakest Rows in a Matrix
+Search in Rotated Sorted Array II
+11.
+
+Subsets
+
+Grasp the fundamentals of generating subsets, permutations, and letter combinations, using efficient algorithms.
+Introduction to Subsets
+Subsets
+Solution: Subsets
+Permutations
+Solution: Permutations
+Letter Combinations of a Phone Number
+Solution: Letter Combinations of a Phone Number
+Generate Parentheses
+Solution: Generate Parentheses
+Find K-Sum Subsets
+12.
+
+Greedy Techniques
+
+Take a closer look at greedy algorithms for optimal solutions in various coding challenges.
+Introduction to Greedy Techniques
+Jump Game
+Solution: Jump Game
+Boats to Save People
+Solution: Boats to Save People
+Gas Station
+Solution: Gas Station
+Two City Scheduling
+Solution: Two City Scheduling
+Minimum Number of Refueling Stops
+Solution: Minimum Number of Refueling Stops
+Largest Palindromic Number
+Solution: Largest Palindromic Number
+Assign Cookies
+Solution: Assign Cookies
+Rearranging Fruits
+Solution: Rearranging Fruits
+Number of Steps to Reduce a Binary Number to One
+Solution: Number of Steps to Reduce a Binary Number to One
+Jump Game II
+13.
+
+Backtracking
+
+Follow the process of utilizing backtracking to solve various algorithmic challenges efficiently.
+Introduction to Backtracking
+N-Queens
+Solution: N-Queens
+Word Search
+Solution: Word Search
+House Robber III
+Solution: House Robber III
+Restore IP Addresses
+Solution: Restore IP Addresses
+Flood Fill
+Solution: Flood Fill
+Minimum Moves to Spread Stones Over Grid
+Solution: Minimum Moves to Spread Stones Over Grid
+Binary Tree Paths
+Solution: Binary Tree Paths
+Binary Watch
+Solution: Binary Watch
+Optimal Account Balancing
+Solution: Optimal Account Balancing
+Sudoku Solver
+Matchsticks to Square
+14.
+
+Dynamic Programming
+
+Master dynamic programming by exploring optimization techniques to solve various algorithmic problems efficiently.
+Introduction to Dynamic Programming
+0/1 Knapsack
+Solution: 0/1 Knapsack
+Coin Change
+Solution: Coin Change
+N-th Tribonacci Number
+Solution: N-th Tribonacci Number
+Partition Equal Subset Sum
+Solution: Partition Equal Subset Sum
+Counting Bits
+Solution: Counting Bits
+01 Matrix
+Solution: 01 Matrix
+House Robber II
+Solution: House Robber II
+Maximum Product Subarray
+Solution: Maximum Product Subarray
+Combination Sum
+Solution: Combination Sum
+Word Break
+Solution: Word Break
+Palindromic Substrings
+Solution: Palindromic Substrings
+Longest Common Subsequence
+Solution: Longest Common Subsequence
+Word Break II
+Solution: Word Break II
+Decode Ways
+Solution: Decode Ways
+Count the Number of Good Subsequences
+Solution: Count the Number of Good Subsequences
+Climbing Stairs
+15.
+
+Cyclic Sort
+
+Learn how to use cyclic sort for efficient sorting, missing numbers, and corrupt pairs.
+Introduction to Cyclic Sort
+Missing Number
+Solution: Missing Number
+First Missing Positive
+Solution: First Missing Positive
+Find the Corrupt Pair
+Solution: Find the Corrupt Pair
+Find the First K Missing Positive Numbers
+16.
+
+Topological Sort
+
+Walk through topological sorting for organizing tasks, class compilation, alien dictionary challenges, course schedules, and matrix construction.
+Introduction to Topological Sort
+Compilation Order
+Solution: Compilation Order
+Alien Dictionary
+Solution: Alien Dictionary
+Verifying an Alien Dictionary
+Solution: Verifying an Alien Dictionary
+Course Schedule II
+Solution: Course Schedule II
+Course Schedule
+Solution: Course Schedule
+Build a Matrix with Conditions
+Solution: Build a Matrix with Conditions
+Longest Path With Different Adjacent Characters
+Solution: Longest Path With Different Adjacent Characters
+Find All Possible Recipes from Given Supplies
+17.
+
+Matrices
+
+Examine key matrix operations and solutions for various matrix-related coding problems.
+Introduction to Matrices
+Set Matrix Zeroes
+Solution: Set Matrix Zeroes
+Rotate Image
+Solution: Rotate Image
+Spiral Matrix
+Solution: Spiral Matrix
+Where Will the Ball Fall
+Solution: Where Will the Ball Fall
+Transpose Matrix
+Solution: Transpose Matrix
+Count Negative Numbers in a Sorted Matrix
+Solution: Count Negative Numbers in a Sorted Matrix
+Minimum Time Takes to Reach Destination Without Drowning
+Solution:Minimum Time Takes to Reach Destination Without Drowning
+Smallest Rectangle Enclosing Black Pixels
+Solution: Smallest Rectangle Enclosing Black Pixels
+Island Perimeter
+Solution: Island Perimeter
+18.
+
+Stacks
+
+Grasp the fundamentals of stack data structures and their practical applications in coding.
+Introduction to Stacks
+Basic Calculator
+Solution: Basic Calculator
+Remove All Adjacent Duplicates In String
+Solution: Remove All Adjacent Duplicates In String
+Minimum Remove to Make Valid Parentheses
+Solution: Minimum Remove to Make Valid Parentheses
+Exclusive Time of Functions
+Solution: Exclusive Time of Functions
+Flatten Nested List Iterator
+Solution: Flatten Nested List Iterator
+Implement Queue Using Stacks
+Solution: Implement Queue Using Stacks
+Daily Temperatures
+Solution: Daily Temperatures
+Decode String
+Solution: Decode String
+Minimum String Length After Removing Substrings
+Solution: Minimum String Length After Removing Substrings
+Valid Parentheses
+19.
+
+Graphs
+
+Deepen your knowledge of graph fundamentals, traversal techniques, and key graph algorithms.
+Introduction to Graphs
+Network Delay Time
+Solution: Network Delay Time
+Paths in Maze That Lead to Same Room
+Solution: Paths in Maze That Lead to Same Room
+Clone Graph
+Solution: Clone Graph
+Graph Valid Tree
+Solution: Graph Valid Tree
+Bus Routes
+Solution: Bus Routes
+Reconstruct Itinerary
+Solution: Reconstruct Itinerary
+Find the Town Judge
+Solution: Find the Town Judge
+Find Center of Star Graph
+Solution: Find Center of Star Graph
+20.
+
+Tree Depth-First Search
+
+Simplify complex topics like tree depth-first search and solving binary tree problems efficiently.
+Introduction to Tree Depth-First Search
+Flatten Binary Tree to Linked List
+Solution: Flatten Binary Tree to Linked List
+Diameter of Binary Tree
+Solution: Diameter of Binary Tree
+Serialize and Deserialize Binary Tree
+Solution: Serialize and Deserialize Binary Tree
+Invert Binary Tree
+Solution: Invert Binary Tree
+Binary Tree Maximum Path Sum
+Solution: Binary Tree Maximum Path Sum
+Convert Sorted Array to Binary Search Tree
+Solution: Convert Sorted Array to Binary Search Tree
+Build Binary Tree from Preorder and Inorder Traversal
+Solution: Build Binary Tree from Preorder and Inorder Traversal
+Binary Tree Right Side View
+Solution: Binary Tree Right Side View
+Lowest Common Ancestor of a Binary Tree
+Solution: Lowest Common Ancestor of a Binary Tree
+Validate Binary Search Tree
+Solution: Validate Binary Search Tree
+Nested List Weight Sum II
+Solution: Nested List Weight Sum II
+Inorder Successor in BST
+Solution: Inorder Successor in BST
+Height of Binary Tree After Subtree Removal Queries
+Solution: Height of Binary Tree After Subtree Removal Queries
+Delete Nodes And Return Forest
+Solution: Delete Nodes And Return Forest
+Maximum Depth of Binary Tree
+Kth Smallest Element in a BST
+21.
+
+Tree Breadth-First Search
+
+Master the steps to efficiently traverse binary trees with BFS for various problem-solving applications.
+Introduction to Tree Breadth-First Search
+Binary Tree Level Order Traversal
+Solution: Binary Tree Level Order Traversal
+Binary Tree Zigzag Level Order Traversal
+Solution: Binary Tree Zigzag Level Order Traversal
+Populating Next Right Pointers in Each Node
+Solution: Populating Next Right Pointers in Each Node
+Vertical Order Traversal of a Binary Tree
+Solution: Vertical Order Traversal of a Binary Tree
+Symmetric Tree
+Solution: Symmetric Tree
+Word Ladder
+Solution: Word Ladder
+Connect All Siblings of a Binary Tree
+22.
+
+Trie
+
+Get familiar with the trie data structure for efficient string storage and prefix matching.
+Introduction to Trie
+Implement Trie (Prefix Tree)
+Solution: Implement Trie (Prefix Tree)
+Search Suggestions System
+Solution: Search Suggestions System
+Replace Words
+Solution: Replace Words
+Design Add and Search Words Data Structure
+Solution: Design Add and Search Words Data Structure
+Word Search II
+Solution: Word Search II
+Top K Frequent Words
+Solution: Top K Frequent Words
+Longest Common Prefix
+Solution: Longest Common Prefix
+Index Pairs of a String
+Solution: Index Pairs of a String
+Lexicographical Numbers
+23.
+
+Hash Maps
+
+Discover the logic behind hash map creation, key operations, and diverse applications.
+Introduction to Hash Maps
+Design HashMap
+Solution: Design HashMap
+Fraction to Recurring Decimal
+Solution: Fraction to Recurring Decimal
+Logger Rate Limiter
+Solution: Logger Rate Limiter
+Next Greater Element I
+Solution: Next Greater Element I
+Isomorphic Strings
+Solution: Isomorphic Strings
+Find Duplicate File in System
+Solution: Find Duplicate File in System
+Dot Product of Two Sparse Vectors
+Solution: Dot Product of Two Sparse Vectors
+High Five
+Solution: High Five
+Bulls and Cows
+Solution: Bulls and Cows
+Custom Sort String
+Solution: Custom Sort String
+Number of Distinct Islands
+Solution: Number of Distinct Islands
+Number of Wonderful Substrings
+Solution: Number of Wonderful Substrings
+Total Appeal of a String
+Solution: Total Appeal of a String
+Continuous Subarray Sum
+Solution: Continuous Subarray Sum
+Unique Number of Occurrences
+Solution: Unique Number of Occurrences
+Longest Palindrome
+24.
+
+Knowing What to Track
+
+Explore effectively tracking elements in data sets for solving common coding problems.
+Introduction to Knowing What to Track
+Palindrome Permutation
+Solution: Palindrome Permutation
+Valid Anagram
+Solution: Valid Anagram
+Design Tic-Tac-Toe
+Solution: Design Tic-Tac-Toe
+Group Anagrams
+Solution: Group Anagrams
+Maximum Frequency Stack
+Solution: Maximum Frequency Stack
+First Unique Character in a String
+Solution: First Unique Character in a String
+Find All Anagrams in a String
+Solution: Find All Anagrams in a String
+Longest Palindrome by Concatenating Two-Letter Words
+Solution: Longest Palindrome by Concatenating Two-Letter Words
+Rank Teams by Votes
+Solution: Rank Teams by Votes
+Pairs of Songs With Total Durations Divisible by 60
+Solution: Pairs of Songs With Total Durations Divisible by 60
+Minimum Number of Pushes to Type Word II
+Solution: Minimum Number of Pushes to Type Word II
+Ransom Note
+25.
+
+Union Find
+
+Grasp the fundamentals of Union Find, solving graph and connectivity problems efficiently.
+Introduction to Union Find
+Redundant Connection
+Solution: Redundant Connection
+Number of Islands
+Solution: Number of Islands
+Most Stones Removed with Same Row or Column
+Solution: Most Stones Removed with Same Row or Column
+Longest Consecutive Sequence
+Solution: Longest Consecutive Sequence
+Last Day Where You Can Still Cross
+Solution: Last Day Where You Can Still Cross
+Regions Cut by Slashes
+Solution: Regions Cut by Slashes
+Accounts Merge
+Solution: Accounts Merge
+Minimize Malware Spread
+Solution: Minimize Malware Spread
+Find if Path Exists in Graph
+Solution: Find if Path Exists in Graph
+The Skyline Problem
+Solution: The Skyline Problem
+Evaluate Division
+26.
+
+Custom Data Structures
+
+Deepen your knowledge of creating custom data structures for specialized problem-solving in JavaScript.
+Introduction to Custom Data Structures
+Snapshot Array
+Solution: Snapshot Array
+Time Based Key-Value Store
+Solution: Time Based Key-Value Store
+LRU Cache
+Solution: LRU Cache
+Insert Delete GetRandom O(1)
+Solution: Insert Delete GetRandom O(1)
+Min Stack
+Solution: Min Stack
+Range Module
+Solution: Range Module
+Shortest Word Distance II
+Solution: Shortest Word Distance II
+Design HashSet
+Solution: Design HashSet
+Max Stack
+Solution: Max Stack
+Moving Average from Data Stream
+Solution: Moving Average from Data Stream
+Two Sum III - Data structure design
+Solution: Two Sum III - Data structure design
+LFU Cache
+27.
+
+Bitwise Manipulation
+
+Implement bitwise manipulation techniques for solving problems efficiently, with applications in cryptography, compression, and data encoding.
+Introduction to Bitwise Manipulation
+Find the Difference
+Solution: Find the Difference
+Complement of Base 10 Integer
+Solution: Complement of Base 10 Integer
+Flipping an Image
+Solution: Flipping an Image
+Single Number
+Solution: Single Number
+Single Number II
+Solution: Single Number II
+Encode and Decode Strings
+Solution: Encode and Decode Strings
+Sum of All Subset XOR Totals
+Solution: Sum of All Subset XOR Totals
+Find The K-th Lucky Number
+Solution: Find The K-th Lucky Number
+Minimum Number of K Consecutive Bit Flips
+Solution: Minimum Number of K Consecutive Bit Flips
+Find the Longest Substring Having Vowels in Even Counts
+Solution: Find the Longest Substring Having Vowels in Even Counts
+Count Triplets That Can Form Two Arrays of Equal XOR
+Solution: Count Triplets That Can Form Two Arrays of Equal XOR
+Longest Subarray With Maximum Bitwise AND
+Solution: Longest Subarray With Maximum Bitwise AND
+Reverse Bits
+28.
+
+Challenge Yourself
+
+Challenge yourself with coding problems, improving problem-solving skills with practice and application.
+Challenge Yourself: Introduction
+Shortest Bridge
+Number of Connected Components in an Undirected Graph
+Median of Two Sorted Arrays
+Pacific Atlantic Water Flow
+Contains Duplicate
+Maximum Subarray
+Two Sum
+Find Minimum in Rotated Sorted Array
+Non-overlapping Intervals
+Meeting Rooms
+Largest Rectangle in Histogram
+Subtree of Another Tree
+Sort List
+Number of 1 Bits
+Container with Most Water
+Evaluate Reverse Polish Notation
+4Sum
+Loud and Rich
+Product of Array Except Self
+Longest Increasing Subsequence
+Sum of Two Integers
+Majority Element
+Unique Paths
+Longest Palindromic Substring
+Permutations II
+Number of Provinces
+Linked List Cycle II
+Minimum Flips to Make the Binary String Alternate
+Lemonade Change
+House Robber
+Find All Numbers Disappeared in an Array
+Find All Duplicates in an Array
+Same Tree
+Design In-Memory File System
+Design File System
+Asteroid Collision
+Rotting Oranges
+Add Binary
+Multiply Strings
+29.
+
+Conclusion
+
+Get familiar with further resources, hands-on practice, and the supportive community for interviews.
+Where to Go from Here?
