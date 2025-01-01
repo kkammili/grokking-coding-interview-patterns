@@ -4,3 +4,7 @@ https://www.educative.io/courses/grokking-coding-interview-in-javascript/lowest-
 use below command along with screenshot of each question
 
 Exract question, include question in solution, solve it in js using two pointer approach along with comments
+
+maybe scrape
+
+markdownViewer select-text  markdown-default markdown-table markdown-viewer markdown-viewer-slate markdown-viewer-heading
