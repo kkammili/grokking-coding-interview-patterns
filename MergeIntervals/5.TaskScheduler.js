@@ -1,0 +1,1 @@
+//hasp map with spaces count ?
