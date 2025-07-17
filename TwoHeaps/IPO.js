@@ -1,3 +1,14 @@
+/**
+ * Problem Statement:
+ * Given several projects, each with a profit and a capital requirement,
+ * find the maximum capital that can be achieved by completing at most k projects.
+ * Initial capital is w.
+ *
+ * Description:
+ * Use a min-heap to track projects by capital requirement and a max-heap
+ * to select the most profitable projects that can be completed with the available capital.
+ */
+
 function findMaximizedCapital(k, w, profits, capital) {
     const minCapitalHeap = new MinHeap();
     const maxProfitHeap = new MaxHeap();

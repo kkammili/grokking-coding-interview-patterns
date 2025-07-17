@@ -1,3 +1,15 @@
+/**
+ * Problem Statement:
+ * Design a data structure that supports the following two operations:
+ * - addNum(int num): Add a number to the data structure.
+ * - findMedian(): Return the median of all elements so far.
+ *
+ * Description:
+ * Use two heaps to maintain the lower and upper halves of the data stream.
+ * The max-heap stores the smaller half, and the min-heap stores the larger half.
+ * Balance the heaps such that their sizes differ by at most one.
+ */
+
 class MedianFinder {
     constructor() {
         this.small = new MaxHeap(); // max-heap

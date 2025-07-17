@@ -1,3 +1,13 @@
+/**
+ * Problem Statement:
+ * Given an array of numbers and a sliding window size k, find the median of each window.
+ *
+ * Description:
+ * Use two heaps to maintain the elements of the current window.
+ * The max-heap stores the smaller half, and the min-heap stores the larger half.
+ * Balance the heaps as the window slides to efficiently compute the median.
+ */
+
 function medianSlidingWindow(nums, k) {
     const result = [];
     const minHeap = new MinHeap();

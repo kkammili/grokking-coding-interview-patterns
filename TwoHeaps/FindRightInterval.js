@@ -1,3 +1,13 @@
+/**
+ * Problem Statement:
+ * Given a set of intervals, for each interval i, find the minimum interval j
+ * such that j.start >= i.end. If no such interval exists, return -1 for that interval.
+ *
+ * Description:
+ * Use a sorted array of interval start times and binary search to efficiently
+ * find the right interval for each interval in the input.
+ */
+
 function findRightInterval(intervals) {
     const startMap = new Map();
     const starts = [];

@@ -1,3 +1,14 @@
+/**
+ * Problem Statement:
+ * Given a list of tasks with start and end times, determine the minimum number of machines
+ * required to complete all tasks without overlap.
+ *
+ * Description:
+ * Use a min-heap to track the end times of tasks currently being processed.
+ * For each new task, remove tasks from the heap that have already ended and add the new task.
+ * The size of the heap at any time gives the number of machines needed.
+ */
+
 function minMachines(tasks) {
     tasks.sort((a, b) => a[0] - b[0]);
     const minHeap = new MinHeap();

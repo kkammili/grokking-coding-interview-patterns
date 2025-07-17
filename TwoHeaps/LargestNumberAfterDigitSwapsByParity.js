@@ -1,3 +1,13 @@
+/**
+ * Problem Statement:
+ * Given an integer, rearrange its digits such that the resulting number is the largest possible
+ * and the parity of each digit remains unchanged.
+ *
+ * Description:
+ * Use two max-heaps to separately sort even and odd digits, then reconstruct the number
+ * by replacing each digit with the largest available of the same parity.
+ */
+
 function largestInteger(num) {
     const digits = num.toString().split('').map(Number);
     const oddHeap = new MaxHeap();
