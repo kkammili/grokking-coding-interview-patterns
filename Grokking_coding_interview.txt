@@ -112,6 +112,22 @@ Largest Number After Digit Swaps by Parity
 Solution: Largest Number After Digit Swaps by Parity
 Find Right Interval
 Solution: Find Right Interval
+8.
+
+K-way merge
+
+Learn how to use the K-way merge for efficient sorting and finding specific elements.
+Introduction to K-way Merge
+Merge Sorted Array
+Solution: Merge Sorted Array
+Kth Smallest Number in M Sorted Lists
+Solution: Kth Smallest Number in M Sorted Lists
+Find K Pairs with Smallest Sums
+Solution: Find K Pairs with Smallest Sums
+Merge K Sorted Lists
+Solution: Merge K Sorted Lists
+Kth Smallest Element in a Sorted Matrix
+Solution: Kth Smallest Element in a Sorted Matrix
 Kth Largest Element in a Stream
 Solution: Kth Largest Element in a Stream
 Median of Two Sorted Arrays
