@@ -98,19 +98,19 @@ Two Heaps
 
 Build on using two heaps to optimize dynamic data processing, median calculations, and task scheduling.
 Introduction to Two Heaps
-IPO
+1. IPO
 Solution: IPO
-Find Median from Data Stream
+2. Find Median from Data Stream
 Solution: Find Median from Data Stream
-Sliding Window Median
+3. Sliding Window Median
 Solution: Sliding Window Median
-Schedule Tasks on Minimum Machines
+4. Schedule Tasks on Minimum Machines
 Solution: Schedule Tasks on Minimum Machines
-Meeting Rooms III
+5. Meeting Rooms III
 Solution: Meeting Rooms III
-Largest Number After Digit Swaps by Parity
+6. Largest Number After Digit Swaps by Parity
 Solution: Largest Number After Digit Swaps by Parity
-Find Right Interval
+7. Find Right Interval
 Solution: Find Right Interval
 8.
 
@@ -202,15 +202,15 @@ K-way merge
 
 Learn how to use the K-way merge for efficient sorting and finding specific elements.
 Introduction to K-way Merge
-Merge Sorted Array
+1. Merge Sorted Array
 Solution: Merge Sorted Array
-Kth Smallest Number in M Sorted Lists
+2. Kth Smallest Number in M Sorted Lists
 Solution: Kth Smallest Number in M Sorted Lists
-Find K Pairs with Smallest Sums
+3. Find K Pairs with Smallest Sums
 Solution: Find K Pairs with Smallest Sums
-Merge K Sorted Lists
+4. Merge K Sorted Lists
 Solution: Merge K Sorted Lists
-Kth Smallest Element in a Sorted Matrix
+5. Kth Smallest Element in a Sorted Matrix
 Solution: Kth Smallest Element in a Sorted Matrix
 9.
 
