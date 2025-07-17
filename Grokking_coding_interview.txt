@@ -112,6 +112,14 @@ Largest Number After Digit Swaps by Parity
 Solution: Largest Number After Digit Swaps by Parity
 Find Right Interval
 Solution: Find Right Interval
+Kth Largest Element in a Stream
+Solution: Kth Largest Element in a Stream
+Median of Two Sorted Arrays
+Solution: Median of Two Sorted Arrays
+Kth Smallest Element in a Sorted Matrix
+Solution: Kth Smallest Element in a Sorted Matrix
+Find Median from Data Stream II
+Solution: Find Median from Data Stream II
 Introduction to In-Place Manipulation of a Linked List
 Reverse Linked List
 Solution: Reverse Linked List
