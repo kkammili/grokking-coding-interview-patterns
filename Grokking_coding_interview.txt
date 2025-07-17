@@ -92,6 +92,26 @@ Meeting Rooms II
 In-Place Manipulation of a Linked List
 
 Tackle in-place linked list manipulation for scenarios like reversing, swapping nodes, and removing duplicates using space-efficient techniques.
+7.
+
+Two Heaps
+
+Build on using two heaps to optimize dynamic data processing, median calculations, and task scheduling.
+Introduction to Two Heaps
+IPO
+Solution: IPO
+Find Median from Data Stream
+Solution: Find Median from Data Stream
+Sliding Window Median
+Solution: Sliding Window Median
+Schedule Tasks on Minimum Machines
+Solution: Schedule Tasks on Minimum Machines
+Meeting Rooms III
+Solution: Meeting Rooms III
+Largest Number After Digit Swaps by Parity
+Solution: Largest Number After Digit Swaps by Parity
+Find Right Interval
+Solution: Find Right Interval
 Introduction to In-Place Manipulation of a Linked List
 Reverse Linked List
 Solution: Reverse Linked List
