@@ -60,39 +60,41 @@ Since the process enters a cycle, \( 2 \) is not a happy number.
 
 // import sumOfSquaredDigits from "./sum_of_squared_digits.js";
 
-function calculateFP(num){
-    let sum = 0
-    for(let i = 0; i<num.length; i++){
-        sum = sum + Math.pow(num[i], 2)
+/**
+ * Happy Number
+ * 
+ * A happy number is a number defined by the following process:
+ * Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers.
+ * 
+ * Example:
+ * Input: 19
+ * Output: true
+ * 
+ * Approach:
+ * 1. Use two pointers, slow and fast, to detect cycles.
+ * 2. The slow pointer moves one step at a time, while the fast pointer moves two steps.
+ * 3. If they meet at 1, the number is happy. If they meet at any other number, a cycle is detected, and the number is not happy.
+ */
+
+function calculateFP(num) {
+    let sum = 0;
+    for (let i = 0; i < num.length; i++) {
+        sum = sum + Math.pow(num[i], 2);
     }
-    return sum
+    return sum;
 }
 
-function isHappyNumber(n){
-
-    // Replace this placeholder return statement with your code
-    if(n === 1){
-        return true
+function isHappyNumber(n) {
+    let slow = n;
+    let fast = calculateFP(n + '');
+    
+    while (fast !== 1 && slow !== fast) {
+        slow = calculateFP(slow + '');
+        fast = calculateFP(calculateFP(fast + ''));
     }
-    let sp = n
-    let fp = calculateFP(n + '')
-    const memoFP = []
-
-    while(true){
-        if(memoFP.includes(fp)){
-            //cycle detected
-            return false
-        }else if(fp === 1){
-            //happy number
-         return true   
-        }
-        else{
-            // recompute sp, fp and update memo.
-            memoFP.push(fp)
-            sp = fp
-            fp = calculateFP(sp + '')
-        }
-    }
+    
+    return fast === 1;
 }
 
-console.log(isHappyNumber(7))
+console.log(isHappyNumber(19));  // Output: true
+console.log(isHappyNumber(2));   // Output: false

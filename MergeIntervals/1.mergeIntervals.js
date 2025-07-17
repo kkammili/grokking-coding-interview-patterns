@@ -30,6 +30,21 @@
  *   - Otherwise, add the current interval to the merged array.
  */
 
+/**
+ * Merge Intervals
+ * 
+ * Given a collection of intervals, merge all overlapping intervals.
+ * 
+ * Example:
+ * Input: [[1,3],[2,6],[8,10],[15,18]]
+ * Output: [[1,6],[8,10],[15,18]]
+ * 
+ * Approach:
+ * 1. Sort the intervals by their start time.
+ * 2. Iterate through the sorted intervals and merge overlapping intervals.
+ * 3. Add the merged intervals to the result list.
+ */
+
 function mergeIntervals(intervals) {
     const merged = [];  // Array to store merged intervals.
     
@@ -41,25 +56,25 @@ function mergeIntervals(intervals) {
     // Sort intervals by their start time.
     intervals.sort((a, b) => a[0] - b[0]);
 
-    // Add the first interval to `merged`.
-    merged.push(intervals[0]);
+    let currentInterval = intervals[0];
+    merged.push(currentInterval);
 
-    // Iterate over the rest of the intervals.
     for (let i = 1; i < intervals.length; i++) {
-        let prevInterval = merged[merged.length - 1];  // The last interval in `merged`.
-        let currInterval = intervals[i];  // Current interval.
+        const currentStart = currentInterval[0];
+        const currentEnd = currentInterval[1];
+        const nextStart = intervals[i][0];
+        const nextEnd = intervals[i][1];
 
-        // Check if intervals overlap.
-        if (prevInterval[1] >= currInterval[0]) {
-            // Merge intervals by updating the end time.
-            prevInterval[1] = Math.max(prevInterval[1], currInterval[1]);
+        if (currentEnd >= nextStart) {
+            // Overlapping intervals, merge them.
+            currentInterval[1] = Math.max(currentEnd, nextEnd);
         } else {
-            // If they don't overlap, add the current interval.
-            merged.push(currInterval);
+            // No overlap, add the current interval to the result.
+            currentInterval = intervals[i];
+            merged.push(currentInterval);
         }
     }
 
-    // Return the merged intervals.
     return merged;
 }
 
@@ -67,5 +82,3 @@ function mergeIntervals(intervals) {
 console.log(mergeIntervals([[1, 3], [2, 6], [8, 10], [15, 18]]));  // Output: [[1, 6], [8, 10], [15, 18]]
 console.log(mergeIntervals([[1, 4], [4, 5]]));  // Output: [[1, 5]]
 console.log(mergeIntervals([[1, 6], [2, 4]]));  // Output: [[1, 6]]
-
-// Note: was able to change last elem just by ref prevInterval ?

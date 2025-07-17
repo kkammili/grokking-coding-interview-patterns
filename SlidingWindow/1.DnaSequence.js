@@ -1,17 +1,33 @@
+/**
+ * Repeated DNA Sequences
+ * 
+ * All DNA is composed of a series of nucleotides abbreviated as 'A', 'C', 'G', and 'T', for example: "ACGAATTCCG". When studying DNA, it is useful to identify repeated sequences within the DNA.
+ * 
+ * Example:
+ * Input: s = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT", k = 10
+ * Output: ["AAAAACCCCC", "CCCCCAAAAA"]
+ * 
+ * Approach:
+ * 1. Use a sliding window of size k to traverse the string.
+ * 2. Use a set to track all sequences of length k.
+ * 3. Use another set to track sequences that appear more than once.
+ * 4. Return the list of repeated sequences.
+ */
+
 function findRepeatedSequences(dna, k) {
-
-    // Replace this placeholder return statement with your code
-    let allComb = new Set()
-    let result = new Set()
-    for(let i = 0; i< dna.length; i++){
-        let j = i + k;
-        if(allComb.has(dna.slice(i,j)) && dna.slice(i,j).length === k){
-            result.add(dna.slice(i,j))
-        }else{
-            allComb.add(dna.slice(i,j))
-}
+    const seen = new Set();
+    const repeated = new Set();
+    
+    for (let i = 0; i <= dna.length - k; i++) {
+        const sequence = dna.substring(i, i + k);
+        if (seen.has(sequence)) {
+            repeated.add(sequence);
+        } else {
+            seen.add(sequence);
+        }
     }
-    return result
+    
+    return Array.from(repeated);
 }
 
-console.log(findRepeatedSequences('CGG', 1))
+console.log(findRepeatedSequences('AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT', 10));  // Output: ["AAAAACCCCC", "CCCCCAAAAA"]
