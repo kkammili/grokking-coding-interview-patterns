@@ -1,3 +1,14 @@
+/**
+ * Problem Statement:
+ * Given M sorted lists, find the Kth smallest number among all the lists.
+ *
+ * Detailed Explanation:
+ * This problem can be efficiently solved using a MinHeap. We insert the first element of each list into the heap.
+ * Then, we extract the minimum element from the heap K times. Each time we extract an element, we insert the next element
+ * from the same list into the heap. This ensures that we always have the smallest elements available for extraction.
+ * The time complexity is O(K log M), where M is the number of lists.
+ */
+
 function kthSmallestNumber(lists, k) {
     const minHeap = new MinHeap();
 

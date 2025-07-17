@@ -1,3 +1,15 @@
+/**
+ * Problem Statement:
+ * Given a sorted matrix, find the Kth smallest element.
+ *
+ * Detailed Explanation:
+ * We treat the matrix as a collection of sorted lists (each row is a sorted list). We use a MinHeap to efficiently
+ * find the Kth smallest element. Initially, we insert the first element of each row into the heap. We then extract
+ * the smallest element from the heap K times. Each time we extract an element, we insert the next element from the
+ * same row into the heap. This approach ensures that we efficiently find the Kth smallest element.
+ * The time complexity is O(K log N), where N is the number of rows.
+ */
+
 function kthSmallest(matrix, k) {
     const n = matrix.length;
     const minHeap = new MinHeap();

@@ -1,3 +1,14 @@
+/**
+ * Problem Statement:
+ * Given K sorted linked lists, merge them into a single sorted linked list.
+ *
+ * Detailed Explanation:
+ * This problem is a classic application of the K-way merge technique using a MinHeap. We insert the head of each list
+ * into the heap. We then repeatedly extract the smallest node from the heap and add it to the merged list. After extracting
+ * a node, we insert the next node from the same list into the heap. This process continues until all nodes are merged.
+ * The time complexity is O(N log K), where N is the total number of nodes.
+ */
+
 function mergeKLists(lists) {
     const minHeap = new MinHeap();
     const dummy = new ListNode(0);

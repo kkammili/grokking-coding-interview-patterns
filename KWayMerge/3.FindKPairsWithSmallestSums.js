@@ -1,3 +1,15 @@
+/**
+ * Problem Statement:
+ * Given two arrays, find K pairs with the smallest sums.
+ *
+ * Detailed Explanation:
+ * We use a MinHeap to keep track of the smallest pairs. Initially, we insert pairs consisting of the first element
+ * from the first array and each element from the second array. We then extract the smallest pair from the heap K times.
+ * For each extracted pair, we insert the next pair from the first array with the same element from the second array.
+ * This approach ensures that we efficiently find the K pairs with the smallest sums.
+ * The time complexity is O(K log K).
+ */
+
 function kSmallestPairs(nums1, nums2, k) {
     const minHeap = new MinHeap();
     const result = [];
